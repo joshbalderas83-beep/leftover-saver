@@ -1,0 +1,7 @@
+{
+  "name": "AI Culinary Console",
+  "description": "An intelligent cooking assistant integrating Michelin expertise, nutritional analysis, and metaphysical recommendations.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
