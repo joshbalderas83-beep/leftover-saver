@@ -68,7 +68,7 @@ const recipeSchema: Schema = {
 };
 
 export const generateRecipe = async (mode: AppMode, inputs: UserInputs): Promise<RecipeData> => {
-const apiKey = "AIzaSyBxBaQYAo6kY_7gLOXzruLV4PcEToUtxcs"; 
+const apiKey = "AIzaSy+CHigoxU5fRdJFUw4JjHARpdkoz1MOcIFo"
   if (!apiKey) throw new Error("API_KEY not found in environment variables");
 
   const ai = new GoogleGenAI({ apiKey });
